@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Contact</title>
+    </head>
+    <body>
+        <h1>My Contact Details</h1>
+        <p>My Fictional Address</p>
+        <p>1231893r3049182491</p>
+        <p>myemail@gmail.com</p>
+        <hr>
+        <!--form을 작성하려고 하면 form 태그를 사용함 이것은 엑셀에서 유저폼에 해당함-->
+        <!--label은 레이블(텍스트 적힌 것)에 해당함-->
+        <!--input은 우리가 기입할 수 있는 다양한 이벤드 객체에 해당함-->
+        <!--HTML에서는 comma로 작위적으로 나누지 않고 스페이스바로 관리함-->
+        <!--버튼 같은걸 누르면 발생시킬 액션을 form태그 안에 기재함-->
+        <form class="" action="mailto:info@gmail.com" mehtod="post" enctpye="text/plain">
+            <label>Your Name:</label>
+            <input type="text" name="yourName" value=""><br>
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail" value=""><br>
+            <label>Your Message:</label><br>
+            <!--input은 유저가 어떤 값을 입력할 수 있게 해주는 장치임-->
+            <!--textarea는 text를 작성할 수 있는 텍스트 작성란에 해당하며
+            여기서 row는 8행 열은 80열에 해당하는 textarea를 만들어 줌-->
+            <textarea name="yourMessage" rows="8" cols="30"></textarea><br>
+            <input type="submit" name="">
+        </form>
+    </body>
+</html> 
